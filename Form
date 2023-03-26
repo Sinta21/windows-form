@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <p><h2>Challenge 2_21.11.4423</h2></p>
+    <form action="Isi Form" method="submit">
+        <legend><b>Isilah formulir dibawah ini</b></legend>
+        <table width="75%" cellpadding="5%">
+            <tr>
+                <td width="30%">Nama:</td><td width="70%"><input type="text" name="Nama" size="20"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td><td><input type="text" name="Password" size="20"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin:</td><td><input type="radio" name="Jenis Kelamin" value="Laki-Laki">Laki-Laki <input type="radio" name="Jenis Kelamin" value="Perempuan" size="20">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi:</td><td><input type="checkbox" name="Hobi" value="Membaca buku">Membaca Buku <input type="checkbox" name="Hobi" value="Menulis">Menulis <Input type="checkbox" name="Hobi" value="Memancing">Memancing
+                </td>
+            </tr>
+            <tr>
+                <td>Kota:</td><td><select name="Kota\">
+                    <option value="Magelang">Magelang</option>
+                    <option value="Semarang">Semarang</option>
+                    <option value="Yogyakarta">Yogyakarta</option>
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Surakarta">Surakarta</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Komentar Anda:</td><td><textarea name="Komentar Anda" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="Submit" name="submit" value="Mulai Proses!"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
